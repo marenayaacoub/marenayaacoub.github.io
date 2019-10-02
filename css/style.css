@@ -17,14 +17,15 @@ header, nav, main, footer {
 
 
 /* Header styles */
-header { 
+header { font-family: 'Lateef', cursive;
+style="font-size:300%;"
 	background-color: #000;
-	color: BlanchedAlmond;
+	color: teal;
 	min-height: 100px;
 	margin-top: 60px;
 }
 
-header h1 {
+header h1 { font-family: 'Lateef', cursive;
 	padding: 40px 60px;
 }
 
@@ -36,7 +37,7 @@ nav ul {
 	justify-content: flex-end;
 }
 nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
+nav a { color: teal; }
 nav a:hover { color: white; }
 
 
